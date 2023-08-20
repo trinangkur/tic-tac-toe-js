@@ -1,0 +1,34 @@
+body {
+    font-family: "Arial", sans-serif;
+    background: #634F7D;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    color: whitesmoke;
+}
+
+.board {
+    width: 400px;
+    background-color: lightpink;
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+}
+
+.tile {
+    height: 120px;
+    width: 120px;
+    border: 8px solid whitesmoke;
+    font-size: 100px;
+    text-align: center;
+    color: whitesmoke;
+    cursor: pointer;
+}
