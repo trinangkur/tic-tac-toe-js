@@ -13,6 +13,10 @@ body {
     color: whitesmoke;
 }
 
+#winner {
+    color: whitesmoke;
+}
+
 .board {
     width: 400px;
     background-color: lightpink;

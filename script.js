@@ -27,7 +27,8 @@ function hasWon(currentPlayer) {
         if (currentPlayer.moved.includes(winnningCombinations[i][0]) &&
             currentPlayer.moved.includes(winnningCombinations[i][1]) &&
             currentPlayer.moved.includes(winnningCombinations[i][2])) {
-            alert(currentPlayer.name + ' won the match')
+            // alert(currentPlayer.name + ' won the match')
+            document.querySelector('#winner').innerText = currentPlayer.name + ' won the match'
         }
     }
 }
